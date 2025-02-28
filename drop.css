@@ -1,0 +1,30 @@
+.box{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    
+}
+
+.box h2{
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.box li{
+    list-style-type: none;
+    display: inline;
+    color: white;
+    padding: 20px;
+  
+    font-size: 20px;
+}
+.box li:hover{
+    background-color: white;
+    color: black;
+    
+}

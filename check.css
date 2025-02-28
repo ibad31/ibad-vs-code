@@ -1,0 +1,11 @@
+input[type="radio"]:checked + span + .box{
+    background-color: black;
+}
+
+
+
+.box{
+    background-color: green;
+    width: 500px;
+    height: 500px;
+}

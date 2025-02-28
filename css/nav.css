@@ -1,0 +1,42 @@
+nav{
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(72, 122, 191);
+    margin: auto;
+}
+ul li{
+    display: inline;
+}
+nav ul{
+    float: left;
+    margin-top: 40px;
+}
+a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+    font-size: large;
+    border-radius: 10px 0 10px 0;
+    padding: 20px;
+    transition: 0.8s;
+
+}
+a:hover{
+    background-color: rgb(91, 203, 227);
+    border-radius: 10px;
+}
+.box{
+    width: 1000px;
+    height: 500px;
+    background-color: aquamarine;
+    background-image: url("../images/m1.jpg");
+    background-size: 100% 100%;
+    margin: auto;
+    color: aquamarine;
+    font-size: 25px;
+    font-style: italic;
+}
+h1{
+    display: inline;
+}

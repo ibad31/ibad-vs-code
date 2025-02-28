@@ -1,0 +1,60 @@
+.container{
+   width: 1140px;
+   height: 610px;
+   background-color: palevioletred;
+   margin: auto;
+   padding-top: 20px;
+}
+.header{
+   width: 1100px;
+   height: 50px;
+   background-color: aqua;
+   text-align: center;
+   margin: auto;
+}
+.aside{
+    width: 366px;
+    height: 450px;
+    background-color: bisque;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.article{
+    width: 710px;
+    height: 450px;
+    background-color: aquamarine;
+    margin-left: 410px;
+    text-align: center;
+    margin-top: -450px;
+    margin-bottom: 20px;
+    
+ }
+ .logo
+ {
+   text-align: center;
+
+   
+ }
+ 
+.a{
+    width: 200px;
+    height: 150px;
+    background-color: ghostwhite;
+    margin-top: 260px;
+    margin-left: 20px;
+    float: left;
+ }
+ 
+ 
+.footer{
+    width: 1100px;
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+    margin: auto;
+ }
+ 

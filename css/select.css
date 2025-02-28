@@ -1,0 +1,44 @@
+div{
+    width: 500px;
+    height: auto;
+    background-color: green;
+    margin: auto;
+}
+
+div div{
+    width: 350px;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+}
+div div div{
+    width: 300px;
+    height: 100px;
+    background-color: grey;
+    margin: auto;
+}
+div div div div{
+    width: 250px;
+    height: 80px;
+    background-color: rgb(24, 97, 142);
+    margin: auto;
+}
+div > div ~ P + div{
+    width: 350px;
+    height: 100px;
+    background-color: rgb(155, 180, 57);
+    margin: auto;
+}
+
+div > p{
+    color: aliceblue;
+    
+}
+
+div > div ~ p{
+    color: rgb(14, 13, 13);
+}
+
+div > div > div > p + div ~ p{
+    color: aqua;
+}

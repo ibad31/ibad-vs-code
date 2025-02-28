@@ -1,0 +1,50 @@
+nav{
+    height: 100px;
+    width: 1140px;
+    background-color: rgba(53, 177, 244, 0.984);
+    margin: auto;
+    font-size: 20px;
+}
+
+nav img{
+    margin-left: 20px;
+    margin-top: 25px;
+
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+    margin-top: 35px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+
+}
+.dropdown{
+    position: absolute;
+}
+.dropdown ul li{
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+    left: 350px;
+    
+}
+nav div ul{
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 40px;
+    height: 400px;
+    padding-right: 90px;
+}
+.dropdown ul:hover li{
+    display: block;
+}

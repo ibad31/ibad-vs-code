@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    background-color: aqua;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+}
+.box4{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+}
+.box1:hover + .box2 + .box3{
+    background-color: rgb(34, 0, 255);
+}
+.box2:hover + .box3 + .box4{
+    background-color: black;
+}
