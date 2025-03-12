@@ -1,0 +1,162 @@
+/* body {
+    background: url(../bootstrap/ibad2.jpg);
+    
+} */
+header .btn-outline-warning{
+    border-radius: 10px;
+}
+header ul li:hover{
+    color: yellow;    
+}
+.dropdown-menu .nav-link{
+ color: black !important;
+}
+
+
+.navbar-nav a:hover{
+    color: #FFC107;
+}
+section li{
+    list-style-type: none;
+
+}
+section ul i{
+    color: #FFC107;
+}
+
+.meri{
+    background-image: url(ibad2.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.meri h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.meri p {
+    font-size: 1.2rem;
+}
+.feature-box {
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+.feature-box:hover{
+    border: 2px solid yellow;
+}
+.feature-box i {
+    font-size: 2rem;
+    color: #FFC107;
+}
+
+.btn-outline-warning {
+    border-radius: 30px;
+}
+
+menu{
+    /* background-color: #FFC107; */
+    padding: 0 !important;
+}
+menu .card{
+    height: 300px;
+    transition: 0.5s ease-in-out;
+}
+menu .card:hover {
+    transform: translateY(-10px);
+    transition: 0.5s ease-in-out;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2),
+    -10px -10px 30px rgba(255, 255, 255, 0.7) !important;
+}
+
+mark div{
+    background-image: url(ibad4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+mark .btn:hover{
+    background-color: #FFC107;
+    color: black;
+}
+aside .btn:hover{
+    background-color: #FFC107;
+}
+aside .fix-margin{
+    margin-top: -9.3%;
+}
+aside .alto-margin{
+    margin-top: -38.7%;
+}
+.g{
+    width: 350px;
+    /* height: 30px; */
+}
+.j{
+    width: 350px;
+
+}
+div form button{
+    background-color: #FFC107;
+    border-radius: 6px;
+    padding: 5px;
+    border: none;
+}
+div form button:hover{
+    background-color: black;
+    color:#FFC107;
+}
+footer .form-control{
+    
+    color: white;
+}
+
+
+.input-group button{
+    background-color: #FFC107;
+    border: none;
+    border-radius:6px;
+}
+.input-group button:hover{
+    background-color: black;
+    color: #FFC107;
+    border-radius: 6px;
+    
+}
+
+ .active{
+    
+    background-color: #FFC107 !important;
+  
+} 
+
+.custom-margin{
+    margin-top: -11%;
+}
+.custom-margin:nth-child(3){
+    margin-top: -14%;
+}
+
+div .card{
+    margin-top: 15px;
+}
+
+@media (max-width:767px){
+    .custom-margin{
+        margin-top: 10px;
+    }
+    .custom-margin:nth-child(3){
+        margin-top: 10px;
+    }
+
+    aside .fix-margin{
+        margin-top: 10px;
+    }
+    aside .alto-margin{
+        margin-top: 10px;
+    }
+
+}
